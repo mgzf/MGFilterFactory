@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '77B2EFAC6F5779848F35561D7A1BC32E'
+               BlueprintIdentifier = '9DFD7AC815C9F36ED3991887D8DD2711'
                BlueprintName = 'Pods-MogoFilterFactoryDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-MogoFilterFactoryDemo.framework'>

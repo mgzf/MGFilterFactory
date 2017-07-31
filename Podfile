@@ -5,5 +5,6 @@ use_frameworks!
 target ‘MogoFilterFactoryDemo’ do
     pod 'RxSwift'
     pod 'RxCocoa'
+	pod ‘SnapKit’
 
 end

@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   #s.resources          = "LPPushService/Images/*.png"
   s.dependency             "RxSwift"
                            "RxCocoa"
+                           "SnapKit"
   s.requires_arc         = true
 
 end
