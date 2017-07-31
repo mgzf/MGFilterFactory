@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1789185C862188D5FD29A39F /* Pods_MogoFilterFactoryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B604C4737CE4217180D6333E /* Pods_MogoFilterFactoryDemo.framework */; };
 		47E6FE501F2F0D0E00883990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE4F1F2F0D0E00883990 /* AppDelegate.swift */; };
 		47E6FE521F2F0D0E00883990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE511F2F0D0E00883990 /* ViewController.swift */; };
 		47E6FE551F2F0D0E00883990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE531F2F0D0E00883990 /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0948437C9EA1DCC4A3753211 /* Pods-MogoFilterFactoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoFilterFactoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MogoFilterFactoryDemo/Pods-MogoFilterFactoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		47E6FE4C1F2F0D0E00883990 /* MogoFilterFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MogoFilterFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E6FE4F1F2F0D0E00883990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47E6FE511F2F0D0E00883990 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 		47E6FE9B1F2F0D3600883990 /* FilterTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterTextCell.xib; sourceTree = "<group>"; };
 		47E6FE9C1F2F0D3600883990 /* TitledHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitledHeader.swift; sourceTree = "<group>"; };
 		47E6FE9D1F2F0D3600883990 /* TitledHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitledHeader.xib; sourceTree = "<group>"; };
+		B604C4737CE4217180D6333E /* Pods_MogoFilterFactoryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MogoFilterFactoryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32711AEB2FF6213B3C1173D /* Pods-MogoFilterFactoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoFilterFactoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MogoFilterFactoryDemo/Pods-MogoFilterFactoryDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1789185C862188D5FD29A39F /* Pods_MogoFilterFactoryDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +146,8 @@
 				47E6FE631F2F0D0E00883990 /* MogoFilterFactoryDemoTests */,
 				47E6FE6E1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests */,
 				47E6FE4D1F2F0D0E00883990 /* Products */,
+				4BCBC6F58F4707DA05A57DF9 /* Pods */,
+				C14802C6EE7288E7B6327CC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +239,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4BCBC6F58F4707DA05A57DF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0948437C9EA1DCC4A3753211 /* Pods-MogoFilterFactoryDemo.debug.xcconfig */,
+				C32711AEB2FF6213B3C1173D /* Pods-MogoFilterFactoryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C14802C6EE7288E7B6327CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B604C4737CE4217180D6333E /* Pods_MogoFilterFactoryDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47E6FE741F2F0D0E00883990 /* Build configuration list for PBXNativeTarget "MogoFilterFactoryDemo" */;
 			buildPhases = (
+				D9E1CB86CB2134EF7EF747B7 /* [CP] Check Pods Manifest.lock */,
 				47E6FE481F2F0D0E00883990 /* Sources */,
 				47E6FE491F2F0D0E00883990 /* Frameworks */,
 				47E6FE4A1F2F0D0E00883990 /* Resources */,
+				2554FB59A0E9471A3880B13A /* [CP] Embed Pods Frameworks */,
+				2BB78A0A9052A29FC6F66DBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,6 +401,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2554FB59A0E9471A3880B13A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoFilterFactoryDemo/Pods-MogoFilterFactoryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB78A0A9052A29FC6F66DBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoFilterFactoryDemo/Pods-MogoFilterFactoryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E1CB86CB2134EF7EF747B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47E6FE481F2F0D0E00883990 /* Sources */ = {
@@ -551,6 +626,7 @@
 		};
 		47E6FE751F2F0D0E00883990 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0948437C9EA1DCC4A3753211 /* Pods-MogoFilterFactoryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 966SKDK4CF;
@@ -564,6 +640,7 @@
 		};
 		47E6FE761F2F0D0E00883990 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32711AEB2FF6213B3C1173D /* Pods-MogoFilterFactoryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 966SKDK4CF;
