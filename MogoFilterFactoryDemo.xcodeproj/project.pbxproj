@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E6FE501F2F0D0E00883990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE4F1F2F0D0E00883990 /* AppDelegate.swift */; };
+		47E6FE521F2F0D0E00883990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE511F2F0D0E00883990 /* ViewController.swift */; };
+		47E6FE551F2F0D0E00883990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE531F2F0D0E00883990 /* Main.storyboard */; };
+		47E6FE571F2F0D0E00883990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE561F2F0D0E00883990 /* Assets.xcassets */; };
+		47E6FE5A1F2F0D0E00883990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE581F2F0D0E00883990 /* LaunchScreen.storyboard */; };
+		47E6FE651F2F0D0E00883990 /* MogoFilterFactoryDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE641F2F0D0E00883990 /* MogoFilterFactoryDemoTests.swift */; };
+		47E6FE701F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE6F1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.swift */; };
+		47E6FE9E1F2F0D3600883990 /* CommonFilterConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE7E1F2F0D3600883990 /* CommonFilterConfigModel.swift */; };
+		47E6FE9F1F2F0D3600883990 /* CommonFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE7F1F2F0D3600883990 /* CommonFilterController.swift */; };
+		47E6FEA01F2F0D3600883990 /* CommonFilterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE801F2F0D3600883990 /* CommonFilterController.xib */; };
+		47E6FEA11F2F0D3600883990 /* CommonFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE811F2F0D3600883990 /* CommonFilterViewModel.swift */; };
+		47E6FEA21F2F0D3600883990 /* FilterContentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE821F2F0D3600883990 /* FilterContentTableView.swift */; };
+		47E6FEA31F2F0D3600883990 /* FilterDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE831F2F0D3600883990 /* FilterDelegates.swift */; };
+		47E6FEA41F2F0D3600883990 /* FilterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE841F2F0D3600883990 /* FilterHeaderView.swift */; };
+		47E6FEA51F2F0D3600883990 /* sampleFilterConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE851F2F0D3600883990 /* sampleFilterConfig.plist */; };
+		47E6FEA61F2F0D3600883990 /* sampleFilterConfigHeader.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE861F2F0D3600883990 /* sampleFilterConfigHeader.plist */; };
+		47E6FEA71F2F0D3600883990 /* TipLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE881F2F0D3600883990 /* TipLeftAlignedLayout.m */; };
+		47E6FEA81F2F0D3600883990 /* UIImage+ScaleExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE8A1F2F0D3600883990 /* UIImage+ScaleExt.m */; };
+		47E6FEA91F2F0D3600883990 /* UIViewComHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE8B1F2F0D3600883990 /* UIViewComHelper.swift */; };
+		47E6FEAA1F2F0D3600883990 /* BaseFilterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE8D1F2F0D3600883990 /* BaseFilterCollectionCell.swift */; };
+		47E6FEAB1F2F0D3600883990 /* CommonConfigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE8E1F2F0D3600883990 /* CommonConfigCell.swift */; };
+		47E6FEAC1F2F0D3600883990 /* CommonConfigCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE8F1F2F0D3600883990 /* CommonConfigCell.xib */; };
+		47E6FEAD1F2F0D3600883990 /* CommonFilterHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE901F2F0D3600883990 /* CommonFilterHeaderCell.swift */; };
+		47E6FEAE1F2F0D3600883990 /* CommonFilterHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE911F2F0D3600883990 /* CommonFilterHeaderCell.xib */; };
+		47E6FEAF1F2F0D3600883990 /* FilterDialogChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE921F2F0D3600883990 /* FilterDialogChoiceCell.swift */; };
+		47E6FEB01F2F0D3600883990 /* FilterDialogChoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE931F2F0D3600883990 /* FilterDialogChoiceCell.xib */; };
+		47E6FEB11F2F0D3600883990 /* FilterDurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE941F2F0D3600883990 /* FilterDurationCell.swift */; };
+		47E6FEB21F2F0D3600883990 /* FilterDurationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE951F2F0D3600883990 /* FilterDurationCell.xib */; };
+		47E6FEB31F2F0D3600883990 /* FilterSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE961F2F0D3600883990 /* FilterSelectCell.swift */; };
+		47E6FEB41F2F0D3600883990 /* FilterSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE971F2F0D3600883990 /* FilterSelectCell.xib */; };
+		47E6FEB51F2F0D3600883990 /* FilterSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE981F2F0D3600883990 /* FilterSliderCell.swift */; };
+		47E6FEB61F2F0D3600883990 /* FilterSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE991F2F0D3600883990 /* FilterSliderCell.xib */; };
+		47E6FEB71F2F0D3600883990 /* FilterTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE9A1F2F0D3600883990 /* FilterTextCell.swift */; };
+		47E6FEB81F2F0D3600883990 /* FilterTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE9B1F2F0D3600883990 /* FilterTextCell.xib */; };
+		47E6FEB91F2F0D3600883990 /* TitledHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6FE9C1F2F0D3600883990 /* TitledHeader.swift */; };
+		47E6FEBA1F2F0D3600883990 /* TitledHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6FE9D1F2F0D3600883990 /* TitledHeader.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47E6FE611F2F0D0E00883990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E6FE441F2F0D0E00883990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E6FE4B1F2F0D0E00883990;
+			remoteInfo = MogoFilterFactoryDemo;
+		};
+		47E6FE6C1F2F0D0E00883990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E6FE441F2F0D0E00883990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E6FE4B1F2F0D0E00883990;
+			remoteInfo = MogoFilterFactoryDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47E6FE4C1F2F0D0E00883990 /* MogoFilterFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MogoFilterFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E6FE4F1F2F0D0E00883990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47E6FE511F2F0D0E00883990 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47E6FE541F2F0D0E00883990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47E6FE561F2F0D0E00883990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E6FE591F2F0D0E00883990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47E6FE5B1F2F0D0E00883990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E6FE601F2F0D0E00883990 /* MogoFilterFactoryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MogoFilterFactoryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E6FE641F2F0D0E00883990 /* MogoFilterFactoryDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogoFilterFactoryDemoTests.swift; sourceTree = "<group>"; };
+		47E6FE661F2F0D0E00883990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E6FE6B1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MogoFilterFactoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E6FE6F1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogoFilterFactoryDemoUITests.swift; sourceTree = "<group>"; };
+		47E6FE711F2F0D0E00883990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E6FE7E1F2F0D3600883990 /* CommonFilterConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFilterConfigModel.swift; sourceTree = "<group>"; };
+		47E6FE7F1F2F0D3600883990 /* CommonFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFilterController.swift; sourceTree = "<group>"; };
+		47E6FE801F2F0D3600883990 /* CommonFilterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonFilterController.xib; sourceTree = "<group>"; };
+		47E6FE811F2F0D3600883990 /* CommonFilterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFilterViewModel.swift; sourceTree = "<group>"; };
+		47E6FE821F2F0D3600883990 /* FilterContentTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterContentTableView.swift; sourceTree = "<group>"; };
+		47E6FE831F2F0D3600883990 /* FilterDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterDelegates.swift; sourceTree = "<group>"; };
+		47E6FE841F2F0D3600883990 /* FilterHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterHeaderView.swift; sourceTree = "<group>"; };
+		47E6FE851F2F0D3600883990 /* sampleFilterConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sampleFilterConfig.plist; sourceTree = "<group>"; };
+		47E6FE861F2F0D3600883990 /* sampleFilterConfigHeader.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sampleFilterConfigHeader.plist; sourceTree = "<group>"; };
+		47E6FE871F2F0D3600883990 /* TipLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipLeftAlignedLayout.h; sourceTree = "<group>"; };
+		47E6FE881F2F0D3600883990 /* TipLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipLeftAlignedLayout.m; sourceTree = "<group>"; };
+		47E6FE891F2F0D3600883990 /* UIImage+ScaleExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleExt.h"; sourceTree = "<group>"; };
+		47E6FE8A1F2F0D3600883990 /* UIImage+ScaleExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleExt.m"; sourceTree = "<group>"; };
+		47E6FE8B1F2F0D3600883990 /* UIViewComHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewComHelper.swift; sourceTree = "<group>"; };
+		47E6FE8D1F2F0D3600883990 /* BaseFilterCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFilterCollectionCell.swift; sourceTree = "<group>"; };
+		47E6FE8E1F2F0D3600883990 /* CommonConfigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonConfigCell.swift; sourceTree = "<group>"; };
+		47E6FE8F1F2F0D3600883990 /* CommonConfigCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonConfigCell.xib; sourceTree = "<group>"; };
+		47E6FE901F2F0D3600883990 /* CommonFilterHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFilterHeaderCell.swift; sourceTree = "<group>"; };
+		47E6FE911F2F0D3600883990 /* CommonFilterHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonFilterHeaderCell.xib; sourceTree = "<group>"; };
+		47E6FE921F2F0D3600883990 /* FilterDialogChoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterDialogChoiceCell.swift; sourceTree = "<group>"; };
+		47E6FE931F2F0D3600883990 /* FilterDialogChoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterDialogChoiceCell.xib; sourceTree = "<group>"; };
+		47E6FE941F2F0D3600883990 /* FilterDurationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterDurationCell.swift; sourceTree = "<group>"; };
+		47E6FE951F2F0D3600883990 /* FilterDurationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterDurationCell.xib; sourceTree = "<group>"; };
+		47E6FE961F2F0D3600883990 /* FilterSelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSelectCell.swift; sourceTree = "<group>"; };
+		47E6FE971F2F0D3600883990 /* FilterSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterSelectCell.xib; sourceTree = "<group>"; };
+		47E6FE981F2F0D3600883990 /* FilterSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSliderCell.swift; sourceTree = "<group>"; };
+		47E6FE991F2F0D3600883990 /* FilterSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterSliderCell.xib; sourceTree = "<group>"; };
+		47E6FE9A1F2F0D3600883990 /* FilterTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTextCell.swift; sourceTree = "<group>"; };
+		47E6FE9B1F2F0D3600883990 /* FilterTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterTextCell.xib; sourceTree = "<group>"; };
+		47E6FE9C1F2F0D3600883990 /* TitledHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitledHeader.swift; sourceTree = "<group>"; };
+		47E6FE9D1F2F0D3600883990 /* TitledHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitledHeader.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E6FE491F2F0D0E00883990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E6FE5D1F2F0D0E00883990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E6FE681F2F0D0E00883990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E6FE431F2F0D0E00883990 = {
+			isa = PBXGroup;
+			children = (
+				47E6FE4E1F2F0D0E00883990 /* MogoFilterFactoryDemo */,
+				47E6FE631F2F0D0E00883990 /* MogoFilterFactoryDemoTests */,
+				47E6FE6E1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests */,
+				47E6FE4D1F2F0D0E00883990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47E6FE4D1F2F0D0E00883990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E6FE4C1F2F0D0E00883990 /* MogoFilterFactoryDemo.app */,
+				47E6FE601F2F0D0E00883990 /* MogoFilterFactoryDemoTests.xctest */,
+				47E6FE6B1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E6FE4E1F2F0D0E00883990 /* MogoFilterFactoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47E6FE7D1F2F0D3600883990 /* FilterFactory */,
+				47E6FE4F1F2F0D0E00883990 /* AppDelegate.swift */,
+				47E6FE511F2F0D0E00883990 /* ViewController.swift */,
+				47E6FE531F2F0D0E00883990 /* Main.storyboard */,
+				47E6FE561F2F0D0E00883990 /* Assets.xcassets */,
+				47E6FE581F2F0D0E00883990 /* LaunchScreen.storyboard */,
+				47E6FE5B1F2F0D0E00883990 /* Info.plist */,
+			);
+			path = MogoFilterFactoryDemo;
+			sourceTree = "<group>";
+		};
+		47E6FE631F2F0D0E00883990 /* MogoFilterFactoryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				47E6FE641F2F0D0E00883990 /* MogoFilterFactoryDemoTests.swift */,
+				47E6FE661F2F0D0E00883990 /* Info.plist */,
+			);
+			path = MogoFilterFactoryDemoTests;
+			sourceTree = "<group>";
+		};
+		47E6FE6E1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47E6FE6F1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.swift */,
+				47E6FE711F2F0D0E00883990 /* Info.plist */,
+			);
+			path = MogoFilterFactoryDemoUITests;
+			sourceTree = "<group>";
+		};
+		47E6FE7D1F2F0D3600883990 /* FilterFactory */ = {
+			isa = PBXGroup;
+			children = (
+				47E6FE7E1F2F0D3600883990 /* CommonFilterConfigModel.swift */,
+				47E6FE7F1F2F0D3600883990 /* CommonFilterController.swift */,
+				47E6FE801F2F0D3600883990 /* CommonFilterController.xib */,
+				47E6FE811F2F0D3600883990 /* CommonFilterViewModel.swift */,
+				47E6FE821F2F0D3600883990 /* FilterContentTableView.swift */,
+				47E6FE831F2F0D3600883990 /* FilterDelegates.swift */,
+				47E6FE841F2F0D3600883990 /* FilterHeaderView.swift */,
+				47E6FE851F2F0D3600883990 /* sampleFilterConfig.plist */,
+				47E6FE861F2F0D3600883990 /* sampleFilterConfigHeader.plist */,
+				47E6FE871F2F0D3600883990 /* TipLeftAlignedLayout.h */,
+				47E6FE881F2F0D3600883990 /* TipLeftAlignedLayout.m */,
+				47E6FE891F2F0D3600883990 /* UIImage+ScaleExt.h */,
+				47E6FE8A1F2F0D3600883990 /* UIImage+ScaleExt.m */,
+				47E6FE8B1F2F0D3600883990 /* UIViewComHelper.swift */,
+				47E6FE8C1F2F0D3600883990 /* Views */,
+			);
+			path = FilterFactory;
+			sourceTree = "<group>";
+		};
+		47E6FE8C1F2F0D3600883990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47E6FE8D1F2F0D3600883990 /* BaseFilterCollectionCell.swift */,
+				47E6FE8E1F2F0D3600883990 /* CommonConfigCell.swift */,
+				47E6FE8F1F2F0D3600883990 /* CommonConfigCell.xib */,
+				47E6FE901F2F0D3600883990 /* CommonFilterHeaderCell.swift */,
+				47E6FE911F2F0D3600883990 /* CommonFilterHeaderCell.xib */,
+				47E6FE921F2F0D3600883990 /* FilterDialogChoiceCell.swift */,
+				47E6FE931F2F0D3600883990 /* FilterDialogChoiceCell.xib */,
+				47E6FE941F2F0D3600883990 /* FilterDurationCell.swift */,
+				47E6FE951F2F0D3600883990 /* FilterDurationCell.xib */,
+				47E6FE961F2F0D3600883990 /* FilterSelectCell.swift */,
+				47E6FE971F2F0D3600883990 /* FilterSelectCell.xib */,
+				47E6FE981F2F0D3600883990 /* FilterSliderCell.swift */,
+				47E6FE991F2F0D3600883990 /* FilterSliderCell.xib */,
+				47E6FE9A1F2F0D3600883990 /* FilterTextCell.swift */,
+				47E6FE9B1F2F0D3600883990 /* FilterTextCell.xib */,
+				47E6FE9C1F2F0D3600883990 /* TitledHeader.swift */,
+				47E6FE9D1F2F0D3600883990 /* TitledHeader.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E6FE4B1F2F0D0E00883990 /* MogoFilterFactoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E6FE741F2F0D0E00883990 /* Build configuration list for PBXNativeTarget "MogoFilterFactoryDemo" */;
+			buildPhases = (
+				47E6FE481F2F0D0E00883990 /* Sources */,
+				47E6FE491F2F0D0E00883990 /* Frameworks */,
+				47E6FE4A1F2F0D0E00883990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MogoFilterFactoryDemo;
+			productName = MogoFilterFactoryDemo;
+			productReference = 47E6FE4C1F2F0D0E00883990 /* MogoFilterFactoryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47E6FE5F1F2F0D0E00883990 /* MogoFilterFactoryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E6FE771F2F0D0E00883990 /* Build configuration list for PBXNativeTarget "MogoFilterFactoryDemoTests" */;
+			buildPhases = (
+				47E6FE5C1F2F0D0E00883990 /* Sources */,
+				47E6FE5D1F2F0D0E00883990 /* Frameworks */,
+				47E6FE5E1F2F0D0E00883990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E6FE621F2F0D0E00883990 /* PBXTargetDependency */,
+			);
+			name = MogoFilterFactoryDemoTests;
+			productName = MogoFilterFactoryDemoTests;
+			productReference = 47E6FE601F2F0D0E00883990 /* MogoFilterFactoryDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47E6FE6A1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E6FE7A1F2F0D0E00883990 /* Build configuration list for PBXNativeTarget "MogoFilterFactoryDemoUITests" */;
+			buildPhases = (
+				47E6FE671F2F0D0E00883990 /* Sources */,
+				47E6FE681F2F0D0E00883990 /* Frameworks */,
+				47E6FE691F2F0D0E00883990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E6FE6D1F2F0D0E00883990 /* PBXTargetDependency */,
+			);
+			name = MogoFilterFactoryDemoUITests;
+			productName = MogoFilterFactoryDemoUITests;
+			productReference = 47E6FE6B1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E6FE441F2F0D0E00883990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Harly;
+				TargetAttributes = {
+					47E6FE4B1F2F0D0E00883990 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 966SKDK4CF;
+						ProvisioningStyle = Automatic;
+					};
+					47E6FE5F1F2F0D0E00883990 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 966SKDK4CF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47E6FE4B1F2F0D0E00883990;
+					};
+					47E6FE6A1F2F0D0E00883990 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 966SKDK4CF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47E6FE4B1F2F0D0E00883990;
+					};
+				};
+			};
+			buildConfigurationList = 47E6FE471F2F0D0E00883990 /* Build configuration list for PBXProject "MogoFilterFactoryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E6FE431F2F0D0E00883990;
+			productRefGroup = 47E6FE4D1F2F0D0E00883990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E6FE4B1F2F0D0E00883990 /* MogoFilterFactoryDemo */,
+				47E6FE5F1F2F0D0E00883990 /* MogoFilterFactoryDemoTests */,
+				47E6FE6A1F2F0D0E00883990 /* MogoFilterFactoryDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E6FE4A1F2F0D0E00883990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E6FEAC1F2F0D3600883990 /* CommonConfigCell.xib in Resources */,
+				47E6FEB41F2F0D3600883990 /* FilterSelectCell.xib in Resources */,
+				47E6FEB61F2F0D3600883990 /* FilterSliderCell.xib in Resources */,
+				47E6FE5A1F2F0D0E00883990 /* LaunchScreen.storyboard in Resources */,
+				47E6FEA61F2F0D3600883990 /* sampleFilterConfigHeader.plist in Resources */,
+				47E6FEB81F2F0D3600883990 /* FilterTextCell.xib in Resources */,
+				47E6FEAE1F2F0D3600883990 /* CommonFilterHeaderCell.xib in Resources */,
+				47E6FE571F2F0D0E00883990 /* Assets.xcassets in Resources */,
+				47E6FEA51F2F0D3600883990 /* sampleFilterConfig.plist in Resources */,
+				47E6FEB01F2F0D3600883990 /* FilterDialogChoiceCell.xib in Resources */,
+				47E6FEBA1F2F0D3600883990 /* TitledHeader.xib in Resources */,
+				47E6FEA01F2F0D3600883990 /* CommonFilterController.xib in Resources */,
+				47E6FE551F2F0D0E00883990 /* Main.storyboard in Resources */,
+				47E6FEB21F2F0D3600883990 /* FilterDurationCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E6FE5E1F2F0D0E00883990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E6FE691F2F0D0E00883990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E6FE481F2F0D0E00883990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E6FEB71F2F0D3600883990 /* FilterTextCell.swift in Sources */,
+				47E6FEA91F2F0D3600883990 /* UIViewComHelper.swift in Sources */,
+				47E6FE521F2F0D0E00883990 /* ViewController.swift in Sources */,
+				47E6FEB51F2F0D3600883990 /* FilterSliderCell.swift in Sources */,
+				47E6FEB91F2F0D3600883990 /* TitledHeader.swift in Sources */,
+				47E6FEAA1F2F0D3600883990 /* BaseFilterCollectionCell.swift in Sources */,
+				47E6FE9E1F2F0D3600883990 /* CommonFilterConfigModel.swift in Sources */,
+				47E6FE9F1F2F0D3600883990 /* CommonFilterController.swift in Sources */,
+				47E6FEAD1F2F0D3600883990 /* CommonFilterHeaderCell.swift in Sources */,
+				47E6FEA41F2F0D3600883990 /* FilterHeaderView.swift in Sources */,
+				47E6FEA31F2F0D3600883990 /* FilterDelegates.swift in Sources */,
+				47E6FEA21F2F0D3600883990 /* FilterContentTableView.swift in Sources */,
+				47E6FEA81F2F0D3600883990 /* UIImage+ScaleExt.m in Sources */,
+				47E6FE501F2F0D0E00883990 /* AppDelegate.swift in Sources */,
+				47E6FEB31F2F0D3600883990 /* FilterSelectCell.swift in Sources */,
+				47E6FEA11F2F0D3600883990 /* CommonFilterViewModel.swift in Sources */,
+				47E6FEAF1F2F0D3600883990 /* FilterDialogChoiceCell.swift in Sources */,
+				47E6FEAB1F2F0D3600883990 /* CommonConfigCell.swift in Sources */,
+				47E6FEA71F2F0D3600883990 /* TipLeftAlignedLayout.m in Sources */,
+				47E6FEB11F2F0D3600883990 /* FilterDurationCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E6FE5C1F2F0D0E00883990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E6FE651F2F0D0E00883990 /* MogoFilterFactoryDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E6FE671F2F0D0E00883990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E6FE701F2F0D0E00883990 /* MogoFilterFactoryDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47E6FE621F2F0D0E00883990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E6FE4B1F2F0D0E00883990 /* MogoFilterFactoryDemo */;
+			targetProxy = 47E6FE611F2F0D0E00883990 /* PBXContainerItemProxy */;
+		};
+		47E6FE6D1F2F0D0E00883990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E6FE4B1F2F0D0E00883990 /* MogoFilterFactoryDemo */;
+			targetProxy = 47E6FE6C1F2F0D0E00883990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47E6FE531F2F0D0E00883990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E6FE541F2F0D0E00883990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47E6FE581F2F0D0E00883990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E6FE591F2F0D0E00883990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47E6FE721F2F0D0E00883990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E6FE731F2F0D0E00883990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E6FE751F2F0D0E00883990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MogoFilterFactoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.filter.MogoFilterFactoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		47E6FE761F2F0D0E00883990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MogoFilterFactoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.filter.MogoFilterFactoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		47E6FE781F2F0D0E00883990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MogoFilterFactoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.filter.MogoFilterFactoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MogoFilterFactoryDemo.app/MogoFilterFactoryDemo";
+			};
+			name = Debug;
+		};
+		47E6FE791F2F0D0E00883990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MogoFilterFactoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.filter.MogoFilterFactoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MogoFilterFactoryDemo.app/MogoFilterFactoryDemo";
+			};
+			name = Release;
+		};
+		47E6FE7B1F2F0D0E00883990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MogoFilterFactoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.filter.MogoFilterFactoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MogoFilterFactoryDemo;
+			};
+			name = Debug;
+		};
+		47E6FE7C1F2F0D0E00883990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MogoFilterFactoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.filter.MogoFilterFactoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MogoFilterFactoryDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E6FE471F2F0D0E00883990 /* Build configuration list for PBXProject "MogoFilterFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E6FE721F2F0D0E00883990 /* Debug */,
+				47E6FE731F2F0D0E00883990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E6FE741F2F0D0E00883990 /* Build configuration list for PBXNativeTarget "MogoFilterFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E6FE751F2F0D0E00883990 /* Debug */,
+				47E6FE761F2F0D0E00883990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47E6FE771F2F0D0E00883990 /* Build configuration list for PBXNativeTarget "MogoFilterFactoryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E6FE781F2F0D0E00883990 /* Debug */,
+				47E6FE791F2F0D0E00883990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47E6FE7A1F2F0D0E00883990 /* Build configuration list for PBXNativeTarget "MogoFilterFactoryDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E6FE7B1F2F0D0E00883990 /* Debug */,
+				47E6FE7C1F2F0D0E00883990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47E6FE441F2F0D0E00883990 /* Project object */;
+}

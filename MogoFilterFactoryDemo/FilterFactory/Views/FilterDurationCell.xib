@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FilterDurationCell" id="gTV-IL-0wX" customClass="FilterDurationCell" customModule="MogoPartner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="97"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="339" height="97"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9C-4H-849" customClass="BasePopButton" customModule="MogoPartner" customModuleProvider="target">
+                        <rect key="frame" x="189.5" y="0.0" width="149.5" height="35"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wcw-Rv-e7v">
+                        <rect key="frame" x="246.5" y="9.5" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfm-9E-ENT" customClass="BasePopButton" customModule="MogoPartner" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="149.5" height="35"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="aYy-N8-5MQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0G-S0-aYR">
+                        <rect key="frame" x="57" y="9.5" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⎯" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQD-4S-0uC">
+                        <rect key="frame" x="160.5" y="7" width="17" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="b9C-4H-849" firstAttribute="baseline" secondItem="Sfm-9E-ENT" secondAttribute="baseline" id="1iu-eA-yBf"/>
+                <constraint firstItem="K0G-S0-aYR" firstAttribute="centerY" secondItem="Sfm-9E-ENT" secondAttribute="centerY" id="4VL-hI-9Wf"/>
+                <constraint firstItem="b9C-4H-849" firstAttribute="top" secondItem="Sfm-9E-ENT" secondAttribute="top" id="7cV-uX-XTZ"/>
+                <constraint firstItem="Sfm-9E-ENT" firstAttribute="height" secondItem="b9C-4H-849" secondAttribute="height" id="8ca-T0-EB5"/>
+                <constraint firstItem="K0G-S0-aYR" firstAttribute="centerX" secondItem="Sfm-9E-ENT" secondAttribute="centerX" id="8oJ-8g-N06"/>
+                <constraint firstItem="JQD-4S-0uC" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="8se-iz-vOP"/>
+                <constraint firstItem="Wcw-Rv-e7v" firstAttribute="centerY" secondItem="b9C-4H-849" secondAttribute="centerY" id="RTZ-6E-hCp"/>
+                <constraint firstItem="Sfm-9E-ENT" firstAttribute="width" secondItem="b9C-4H-849" secondAttribute="width" id="WbC-3y-zVY"/>
+                <constraint firstAttribute="trailing" secondItem="b9C-4H-849" secondAttribute="trailing" id="XOA-ZS-xOd"/>
+                <constraint firstItem="Sfm-9E-ENT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="agb-Kj-xz7"/>
+                <constraint firstItem="b9C-4H-849" firstAttribute="leading" secondItem="Sfm-9E-ENT" secondAttribute="trailing" constant="40" id="biD-on-dHr"/>
+                <constraint firstItem="Sfm-9E-ENT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="c2t-mC-Ze4"/>
+                <constraint firstItem="Wcw-Rv-e7v" firstAttribute="centerX" secondItem="b9C-4H-849" secondAttribute="centerX" id="h8L-cz-XT3"/>
+                <constraint firstItem="b9C-4H-849" firstAttribute="baseline" secondItem="Sfm-9E-ENT" secondAttribute="firstBaseline" id="nbQ-Zt-Lbt"/>
+                <constraint firstItem="JQD-4S-0uC" firstAttribute="centerY" secondItem="Sfm-9E-ENT" secondAttribute="centerY" id="rQW-Yv-gLh"/>
+            </constraints>
+            <size key="customSize" width="339" height="97"/>
+            <connections>
+                <outlet property="endBtn" destination="b9C-4H-849" id="c9Y-eW-jex"/>
+                <outlet property="endDateLabel" destination="Wcw-Rv-e7v" id="anW-NA-9u2"/>
+                <outlet property="startBtn" destination="Sfm-9E-ENT" id="TFg-sx-ucW"/>
+                <outlet property="startDateLabel" destination="K0G-S0-aYR" id="MOH-lc-fZn"/>
+            </connections>
+            <point key="canvasLocation" x="133.5" y="118.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

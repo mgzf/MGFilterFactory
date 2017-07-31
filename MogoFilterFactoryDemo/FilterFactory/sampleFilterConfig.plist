@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>sectionParaKey</key>
+		<string>dateFilter</string>
+		<key>sectionName</key>
+		<string>保修日期快速筛选</string>
+		<key>sectionTypeNumber</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>sectionParaKey</key>
+		<string>roomId</string>
+		<key>sectionName</key>
+		<string>房间号</string>
+		<key>sectionTypeNumber</key>
+		<integer>2</integer>
+		<key>errorMessage</key>
+		<string>抓护住啊花花</string>
+		<key>defaultValue</key>
+		<string>你tm才是房间号</string>
+		<key>regex</key>
+		<string>^[A-Za-z0-9]+$</string>
+		<key>placeHolderName</key>
+		<string>填呀</string>
+	</dict>
+	<dict>
+		<key>sectionSubParaKey</key>
+		<string>endDate</string>
+		<key>sectionParaKey</key>
+		<string>startDate</string>
+		<key>sectionName</key>
+		<string>起止日期</string>
+		<key>sectionTypeNumber</key>
+		<integer>5</integer>
+		<key>startDateHolder</key>
+		<string>日期日期啊啊啊</string>
+		<key>endDateHolder</key>
+		<string>日期日期呀呀呀</string>
+		<key>errorMessage</key>
+		<string>日期啊啊啊啊</string>
+	</dict>
+	<dict>
+		<key>sectionParaKey</key>
+		<string>choiceId</string>
+		<key>sectionName</key>
+		<string>选择个毛线</string>
+		<key>placeHolderName</key>
+		<string>填呀</string>
+		<key>sectionTypeNumber</key>
+		<integer>3</integer>
+	</dict>
+</array>
+</plist>

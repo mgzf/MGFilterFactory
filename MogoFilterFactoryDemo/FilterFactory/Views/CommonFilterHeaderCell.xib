@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CommonFilterHeaderCell" id="gTV-IL-0wX" customClass="CommonFilterHeaderCell" customModule="MogoPartner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="192" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="192" height="69"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全部" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeP-KU-4zp">
+                        <rect key="frame" x="80.5" y="25.5" width="31" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYa-6e-FQx">
+                        <rect key="frame" x="191" y="15" width="1" height="39"/>
+                        <color key="backgroundColor" red="0.85882352941176465" green="0.85882352941176465" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="dt2-ga-eO7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="EYa-6e-FQx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="3CQ-pj-2ik"/>
+                <constraint firstItem="YeP-KU-4zp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="4Fa-Nn-52r"/>
+                <constraint firstItem="YeP-KU-4zp" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="CgQ-vh-4Kw"/>
+                <constraint firstAttribute="bottom" secondItem="EYa-6e-FQx" secondAttribute="bottom" constant="15" id="Nkf-74-qvX"/>
+                <constraint firstAttribute="trailing" secondItem="EYa-6e-FQx" secondAttribute="trailing" id="hds-Bf-Kcf"/>
+            </constraints>
+            <size key="customSize" width="192" height="69"/>
+            <connections>
+                <outlet property="filterTitleLabel" destination="YeP-KU-4zp" id="LiY-rF-uGm"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="103.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

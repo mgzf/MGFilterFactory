@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FilterTextCell" id="gTV-IL-0wX" customClass="FilterTextCell" customModule="MogoPartner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="266" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="266" height="69"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="erq-2f-7Uh">
+                        <rect key="frame" x="0.0" y="16.5" width="266" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="pUP-su-Y8O"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="erq-2f-7Uh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aoa-Gc-jHq"/>
+                <constraint firstAttribute="trailing" secondItem="erq-2f-7Uh" secondAttribute="trailing" id="ghl-2d-NGB"/>
+                <constraint firstItem="erq-2f-7Uh" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="hx2-Wg-wKS"/>
+            </constraints>
+            <size key="customSize" width="266" height="69"/>
+            <connections>
+                <outlet property="textLabel" destination="erq-2f-7Uh" id="c93-sY-8fh"/>
+            </connections>
+            <point key="canvasLocation" x="66" y="143.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
